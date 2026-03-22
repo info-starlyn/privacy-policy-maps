@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - [App Name]</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; color: #000; }
+        h2 { color: #444; margin-top: 30px; }
+        footer { margin-top: 60px; font-size: 0.8em; color: #888; border-top: 1px solid #eee; pt: 20px; }
+        .highlight { background: #f9f9f9; padding: 15px; border-left: 4px solid #007bff; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p><strong>Last updated: March 23, 2026</strong></p>
+
+    <div class="highlight">
+        <strong>Summary:</strong> This app is built with a "Privacy-First" philosophy. We do not collect, store, or track your personal data or location.
+    </div>
+
+    <h2>1. Data Collection</h2>
+    <p>This application does not collect, transmit, or store any personal information, device identifiers, or usage data. All app functions are performed locally on your device.</p>
+
+    <h2>2. Location Services</h2>
+    <p>If you grant the app permission to access your location, this data is used <strong>exclusively</strong> to display your position on the map. Your location data is processed locally on your device; it is never transmitted to our servers or shared with any third parties.</p>
+
+    <h2>3. Map Tiles & Third Parties</h2>
+    <p>To display map information, the app requests "tiles" from a third-party provider. During this request, the provider may receive technical metadata (such as your IP address) necessary to deliver the map data. This information is not accessible to the developer and is not used to identify you.</p>
+
+    <h2>4. Intellectual Property & Sharing</h2>
+    <p>The app's code and design are the property of <strong>[Starlyn Interactive]</strong>. However, users retain full ownership of any content or screenshots generated within the app and are free to share them using the app's built-in sharing features.</p>
+
+    <h2>5. Contact</h2>
+    <p>To ensure maximum user privacy, this app does not include built-in tracking or support forms. For inquiries, please refer to the official app store listing.</p>
+
+    <footer>
+        <p>© 2026 [Starlyn Interactive]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
