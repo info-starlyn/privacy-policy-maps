@@ -1,44 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - [Map Compass & Distance Calculator]</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
-        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; color: #000; }
-        h2 { color: #444; margin-top: 30px; }
-        footer { margin-top: 60px; font-size: 0.8em; color: #888; border-top: 1px solid #eee; pt: 20px; }
-        .highlight { background: #f9f9f9; padding: 15px; border-left: 4px solid #007bff; margin: 20px 0; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Map Compass</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #222;
+      line-height: 1.7;
+    }
+    h1 { font-size: 1.8rem; margin-bottom: 4px; }
+    h2 { font-size: 1.15rem; margin-top: 2rem; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+    h3 { font-size: 1rem; margin-bottom: 4px; }
+    p, li { font-size: 0.97rem; }
+    a { color: #1a73e8; }
+    .updated { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+  </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p><strong>Last updated: March 23, 2026</strong></p>
 
-    <div class="highlight">
-        <strong>Summary:</strong> This app is built with a "Privacy-First" philosophy. We do not collect, store, or track your personal data or location.
-    </div>
+<h1>Privacy Policy</h1>
+<p class="updated">App: <strong>Map Compass</strong> &nbsp;|&nbsp; Developer: <strong>Starlyn Interactive</strong> &nbsp;|&nbsp; Last updated: <strong>March 25, 2026</strong></p>
 
-    <h2>1. Data Collection</h2>
-    <p>This application does not collect, transmit, or store any personal information, device identifiers, or usage data. All app functions are performed locally on your device.</p>
+<p>This Privacy Policy explains what information Map Compass collects, how it is used, and your choices. By using the app you agree to this policy.</p>
 
-    <h2>2. Location Services</h2>
-    <p>If you grant the app permission to access your location, this data is used <strong>exclusively</strong> to display your position on the map. Your location data is processed locally on your device; it is never transmitted to our servers or shared with any third parties.</p>
+<h2>1. Information We Collect</h2>
 
-    <h2>3. Map Tiles & Third Parties</h2>
-    <p>To display map information, the app requests "tiles" from a third-party provider. During this request, the provider may receive technical metadata (such as your IP address) necessary to deliver the map data. This information is not accessible to the developer and is not used to identify you.</p>
+<h3>a) Location</h3>
+<p>Map Compass requests access to your device's precise and approximate location (GPS). Location is used to:</p>
+<ul>
+  <li>Display your current position on the map.</li>
+  <li>Provide compass bearing relative to your position.</li>
+  <li>Autofill coordinates when saving a measurement or special location.</li>
+</ul>
+<p>Your location is <strong>not stored on any server</strong>. It is used only on-device in real time and discarded when the app is closed. When you perform a location search, your search query (text only, not your GPS coordinates) is sent to OpenStreetMap Nominatim (see Section 3).</p>
 
-    <h2>4. Intellectual Property & Sharing</h2>
-    <p>The app's code and design are the property of <strong>Starlyn Interactive</strong>. However, users retain full ownership of any content or screenshots generated within the app and are free to share them using the app's built-in sharing features.</p>
+<h3>b) Measurements and Saved Locations</h3>
+<p>Bearing measurements and special locations you save are stored <strong>locally on your device</strong> using Android DataStore. This data includes coordinates (latitude/longitude), bearing values, timestamps, and any custom name you provide. It is never transmitted to our servers.</p>
 
-    <h2>5. Contact</h2>
-    <p>To ensure maximum user privacy, this app does not include built-in tracking or support forms. For inquiries, please refer to the official app store listing.</p>
-    <h2>5. Contact</h2>
-    <p>If you have any questions regarding this Privacy Policy, you may contact the developer at: <strong>starlyn.info at gmail.com</strong></p>
+<h3>c) App Settings and Preferences</h3>
+<p>Your in-app preferences (theme, units, language, map style, etc.) are stored locally on your device and are not shared with us.</p>
 
-    <footer>
-        <p>© 2026 Starlyn Interactive. All rights reserved.</p>
-    </footer>
+<h3>d) Usage Data</h3>
+<p>The app tracks how many seconds per day you use certain features and how many measurements or locations you add per day, solely to enforce free-tier usage limits. This data is stored locally on your device and is never transmitted to us or any third party.</p>
+
+<h2>2. Information We Do Not Collect</h2>
+<ul>
+  <li>We do not collect your name, email address, or any account information.</li>
+  <li>We do not collect crash reports or diagnostic data.</li>
+  <li>We do not use analytics services (e.g., Firebase Analytics, Mixpanel).</li>
+  <li>We do not access your contacts, camera, microphone, files, or calendar.</li>
+  <li>We do not build advertising profiles or track you across other apps.</li>
+</ul>
+
+<h2>3. Third-Party Services</h2>
+
+<h3>Google Play Services</h3>
+<p>The app uses Google Play Services for:</p>
+<ul>
+  <li><strong>Location (FusedLocationProvider)</strong> – Provides GPS data on-device. Subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
+  <li><strong>Play Billing</strong> – Manages subscription purchases through the Google Play Store. Google processes payment data; we do not receive or store your payment information.</li>
+  <li><strong>AdMob (Advertising)</strong> – If you are on the free tier, the app may show rewarded video ads provided by Google AdMob. AdMob may collect and use your Advertising ID and other device information to serve personalised or non-personalised ads in accordance with <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>. You can opt out of personalised ads in your device's Google Settings.</li>
+</ul>
+
+<h3>OpenStreetMap Nominatim</h3>
+<p>When you search for a place, your search text is sent to the OpenStreetMap Nominatim geocoding service (<code>nominatim.openstreetmap.org</code>). No account or personal information is included. Nominatim's use of this data is governed by the <a href="https://osmfoundation.org/wiki/Privacy_Policy" target="_blank">OpenStreetMap Foundation Privacy Policy</a>.</p>
+
+<h3>OpenFreeMap / MapLibre</h3>
+<p>Map tiles are fetched from OpenFreeMap's tile servers (<code>tiles.openfreemap.org</code>). Your device's IP address and the map viewport you are viewing are inherently included in tile requests. See <a href="https://openfreemap.org" target="_blank">openfreemap.org</a> for details.</p>
+
+<h2>4. Data Storage and Security</h2>
+<p>All app data (measurements, locations, preferences, usage counters) is stored locally on your device using Android's DataStore. It is never sent to our servers. Android's built-in backup service may sync this data to your Google account if you have device backup enabled; you can control this in your device's backup settings.</p>
+
+<h2>5. Data Retention and Deletion</h2>
+<p>Your locally stored data remains on your device until you delete it within the app or uninstall the app. Uninstalling the app removes all locally stored data.</p>
+
+<h2>6. Children's Privacy</h2>
+<p>Map Compass is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal data through the app, please contact us so we can address it.</p>
+
+<h2>7. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. The "Last updated" date at the top of this page will reflect any changes. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+<h2>8. Contact</h2>
+<p>If you have questions or concerns about this Privacy Policy, please contact us at: <a href="mailto:starlyninteractive@gmail.com">starlyninteractive@gmail.com</a></p>
+
 </body>
 </html>
